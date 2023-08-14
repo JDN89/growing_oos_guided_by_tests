@@ -11,7 +11,7 @@
 - Integration Tests: Test the interactions between different pieces of code or components.
 - End-to-End Tests: Test the entire application in a way that a user would interact with it.
 
-# Test-Driven Development with Objects
+## Test-Driven Development with Objects
 - Focus on Communication: By concentrating on how objects interact, developers can create a more flexible and maintainable system.
 - Abstract Interfaces over Concrete Classes: This strategy allows objects to be more easily interchangeable and promotes clear communication patterns.
 - Tests and Mock Objects: They can illuminate the dynamic relationships between objects, even when programming languages don't explicitly represent these patterns.
@@ -42,3 +42,25 @@
   - Specify how you expect the mock objects to be called by the target object.
   - Call the triggering method(s) on the target object.
   - Assert that any resulting values are valid and that all the expected calls have been made.
+
+# PART II: The process of Test-Driven Development
+
+## Ch 4: Kick-Starting the Test-Driven Cycle
+- 'Walking Skeleton'
+  - A “walking skeleton” is an implementation of the thinnest possible slice of
+    real functionality that we can automatically build, deploy, and test end-to-end
+    [Cockburn04]. It should include just enough of the automation, the major com-
+    ponents, and communication mechanisms to allow us to start working on the
+    first feature. 
+  - keep the functionality as simple as possible so you can focus on the infrastructure
+  - check that the foundational pieces and core architecture works
+    - then switch to TDD and test that each feature works
+  - for skeleton we have to know the clients requirements both functional and non functional
+    - understand the problem
+    - design architecture
+    - Automate
+      - build
+      - deployment
+      - end to end testing
+      - get feedback
+  - The start of the project will be very stressfull in the beginning because you immediatley have to set up the "basic infrastructure", but once features get implemented the stress levels will go down
