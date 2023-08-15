@@ -71,3 +71,10 @@
   to test now will make it difficult to change in the future.
   - HERACLES sommige zakgen moeilijk om te testen
     - spaghetti code en te grote classes en teveel dependencies?
+## Ch 6: OO Style
+- Seperation of concerns: groep code die voor dezelfde reden zou veranderen tezamen
+- higher level of abstraction -> hide complexity
+  - `information hiding`: Conceals how an object implements its functionality behind the abstraction
+    of its API. It lets us work with higher abstractions by ignoring lower-level details
+    that are unrelated to the task at hand.12
+- In simpler terms, the Law of Demeter advises that an object should ONLY communicate directly with its immediate connected neighbors and not with objects that are further away. Doing so can increase the coupling between components, making your system more fragile to changes.
