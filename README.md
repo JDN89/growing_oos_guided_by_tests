@@ -64,3 +64,10 @@
       - end to end testing
       - get feedback
   - The start of the project will be very stressfull in the beginning because you immediatley have to set up the "basic infrastructure", but once features get implemented the stress levels will go down
+  
+## Ch 5: Maintaining the Test-Driven Cycle
+- Our experience is that, when code is difficult to test, the most likely cause is
+  that our design needs improving. The same structure that makes the code difficult
+  to test now will make it difficult to change in the future.
+  - HERACLES sommige zakgen moeilijk om te testen
+    - spaghetti code en te grote classes en teveel dependencies?
