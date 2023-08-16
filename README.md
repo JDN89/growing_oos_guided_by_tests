@@ -78,3 +78,37 @@
     of its API. It lets us work with higher abstractions by ignoring lower-level details
     that are unrelated to the task at hand.12
 - In simpler terms, the Law of Demeter advises that an object should ONLY communicate directly with its immediate connected neighbors and not with objects that are further away. Doing so can increase the coupling between components, making your system more fragile to changes.
+- Single sesponsibility
+- OBjects PEERS:
+  - Dependencies: object cannot funciton without the other objects
+  - Notifications: peers need to be kept up to date with the objects activities
+  - Adjustment: peers that adjust the objects state
+- context independent objects -> plug and play
+ 
+## Ch 7: Achieving OO Design 
+#### Why Use Specific Value Types?
+- Clarity: It makes your code clearer. Instead of using generic types like String, using a specific type like Item lets you understand and find relevant code quickly.
+- Avoiding Mistakes: Using specific types prevents confusion. E.g., numbers could represent "feet" or "metres", but they're different.
+- Centralize Behavior: When you have a specific type, it's easier to attach related functions to it. This keeps your code organized and object-oriented.
+#### How to Introduce Value Types?
+- Breaking Out: If a class is doing too much, split it. For instance, if a class both parses a message and interprets it, divide these tasks into two classes.
+- Budding Off: Introduce a new type, even if simple, when you have a new concept. Over time, you can add more details to this type. This also helps increase the level of abstraction in your code.
+  -  When implementing an object, we discover
+     that it needs a service to be provided by another object. We give the new service
+     a name and mock it out in the client object’s unit tests, to clarify the relationship
+     between the two. Then we write an object to provide that service and, in doing
+     so, discover what services that object needs.
+  - We think of this as “on-demand” design: we “pull” interfaces and their imple-
+    mentations into existence from the needs of the client, rather than “pushing” out
+    the features that we think a class should provide.
+- Bundling Up: If several values are always used together, maybe they represent a single concept. Group them into a new type. First, just name the group. Later, you can add more functions and details to it.
+
+- We use interfaces to name the roles that objects can play and
+  to describe the messages they’ll accept.
+
+## Ch 8: Building on third party code 
+- Don't mock types/objects you can't change
+- We write a layer of adapter objects (as described in [Gamma94]) that uses the
+  third-party API to implement these interfaces, as in Figure 8.1. We keep this
+  layer as thin as possible, to minimize the amount of potentially brittle and hard-
+  to-test code. 
