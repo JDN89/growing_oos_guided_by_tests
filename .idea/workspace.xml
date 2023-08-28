@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bfc9db0-2430-4466-9fb7-06f34bbaa2d5" name="Changes" comment="add pdfjeuh">
+    <list default="true" id="3bfc9db0-2430-4466-9fb7-06f34bbaa2d5" name="Changes" comment="Chapter 8: Building on third party code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -61,7 +61,8 @@
       <workItem from="1689277557724" duration="113000" />
       <workItem from="1691001382947" duration="3781000" />
       <workItem from="1692130387795" duration="778000" />
-      <workItem from="1692208854693" duration="3525000" />
+      <workItem from="1692208854693" duration="4161000" />
+      <workItem from="1693248472448" duration="1574000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -79,7 +80,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689277660132</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Chapter 8: Building on third party code">
+      <option name="closed" value="true" />
+      <created>1692212457932</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692212457932</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +97,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="add pdfjeuh" />
-    <option name="LAST_COMMIT_MESSAGE" value="add pdfjeuh" />
+    <MESSAGE value="Chapter 8: Building on third party code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Chapter 8: Building on third party code" />
   </component>
 </project>

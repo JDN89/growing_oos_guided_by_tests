@@ -112,3 +112,23 @@
   third-party API to implement these interfaces, as in Figure 8.1. We keep this
   layer as thin as possible, to minimize the amount of potentially brittle and hard-
   to-test code. 
+
+# Part III a worked example
+## Chapter 9: building an auciton sniper
+steps:
+- Walking skeleton: cut a minimum path through Swing, XMPP, and our application
+  -  Single item: join, lose without bidding
+  -  This is our starting case where we put together the core infrastructure; it is
+    -  the subject of Chapter 10.
+  -  Single item: join, bid, and lose
+    -  Add bidding to the basic connectivity.
+  -  Single item: join, bid, and win
+    -  Distinguish who sent the winning bid.
+  -  Show price details
+    -  Start to fill out the user interface.
+  -  Multiple items
+    -  Support bidding for multiple items in the same application.
+  -  Add items through the user interface
+    -  Implement input via the user interface.
+  -  Stop bidding at the stop price
+    -   More intelligence in the Sniper algorithm.
