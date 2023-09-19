@@ -4,19 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bfc9db0-2430-4466-9fb7-06f34bbaa2d5" name="Changes" comment="Chapter 8: Building on third party code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AuctionSniperDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ui/MainWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AcutionTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MainTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/endtoend/ApplicationRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/endtoend/AuctionSniperDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/endtoend/FakeAuctionServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3bfc9db0-2430-4466-9fb7-06f34bbaa2d5" name="Changes" comment="ch 11: setup completelt failed - try again">
+      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/Auction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/AuctionEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/AuctionHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/AuctionMessageTranslator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/AuctionSniper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/ui/Column.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/ui/MainWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/ui/SnipersTableModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/ui/SwingThreadSniperListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/util/Announcer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/util/Defect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/xmpp/LoggingXMPPFailureReporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/xmpp/XMPPAuction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/xmpp/XMPPAuctionException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/xmpp/XMPPAuctionHouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/xmpp/XMPPFailureReporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/auctionsniper/auctionsniper/ApplicationRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/auctionsniper/auctionsniper/AuctionLogDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/auctionsniper/auctionsniper/AuctionSniperDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/auctionsniper/auctionsniper/AuctionSniperEndToEndTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/test/auctionsniper/auctionsniper/FakeAuctionServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Growing-Object-Oriented-Software-Guided-by-Tests.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Growing-Object-Oriented-Software-Guided-by-Tests.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AuctionSniperDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ui/MainWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AcutionTest.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MainTest.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/endtoend/ApplicationRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/endtoend/AuctionSniperDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/endtoend/FakeAuctionServer.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +95,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "Groovy JUnit",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit": "groovy.util.GroovyTestCase",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/jan/Coding/growing_oos/growing_oos_guided_by_tests/src/test/java/test/auctionsniper",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -88,6 +108,11 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/test/auctionsniper" />
+      <recent name="$PROJECT_DIR$/src/test/java/test" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="groovy.util.GroovyTestCase" />
     </key>
@@ -99,7 +124,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ApplicationRunnerSpec">
+  <component name="RunManager" selected="Gradle.ApplicationRunnerSpec (1)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="growing_oos_guided_by_tests.main" />
@@ -112,6 +137,30 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="ApplicationRunnerSpec (1)" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;test.auctionsniper.auctionsniper.ApplicationRunnerSpec&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
     </configuration>
     <configuration name="ApplicationRunnerSpec" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
@@ -139,6 +188,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ApplicationRunnerSpec (1)" />
         <item itemvalue="Gradle.ApplicationRunnerSpec" />
         <item itemvalue="Application.Main" />
       </list>
@@ -158,7 +208,8 @@
       <workItem from="1692208854693" duration="4161000" />
       <workItem from="1693248472448" duration="1574000" />
       <workItem from="1695143957574" duration="43000" />
-      <workItem from="1695144016743" duration="4398000" />
+      <workItem from="1695144016743" duration="4594000" />
+      <workItem from="1695150293748" duration="339000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -184,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692212457932</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ch 11: setup completelt failed - try again">
+      <option name="closed" value="true" />
+      <created>1695149939245</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695149939245</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +253,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="add pdfjeuh" />
     <MESSAGE value="Chapter 8: Building on third party code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chapter 8: Building on third party code" />
+    <MESSAGE value="ch 11: setup completelt failed - try again" />
+    <option name="LAST_COMMIT_MESSAGE" value="ch 11: setup completelt failed - try again" />
   </component>
 </project>
