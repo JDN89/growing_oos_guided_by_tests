@@ -4,39 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bfc9db0-2430-4466-9fb7-06f34bbaa2d5" name="Changes" comment="ch 11: setup completelt failed - try again">
-      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/Auction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/AuctionEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/AuctionHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/AuctionMessageTranslator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/AuctionSniper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/ui/Column.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/ui/MainWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/ui/SnipersTableModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/ui/SwingThreadSniperListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/util/Announcer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/util/Defect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/xmpp/LoggingXMPPFailureReporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/xmpp/XMPPAuction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/xmpp/XMPPAuctionException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/xmpp/XMPPAuctionHouse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/auctionsniper/xmpp/XMPPFailureReporter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/auctionsniper/auctionsniper/ApplicationRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/auctionsniper/auctionsniper/AuctionLogDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/auctionsniper/auctionsniper/AuctionSniperDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/auctionsniper/auctionsniper/AuctionSniperEndToEndTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/test/auctionsniper/auctionsniper/FakeAuctionServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/AuctionSniperDriver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ui/MainWindow.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AcutionTest.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MainTest.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/endtoend/ApplicationRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/endtoend/AuctionSniperDriver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/endtoend/FakeAuctionServer.java" beforeDir="false" />
-    </list>
+    <list default="true" id="3bfc9db0-2430-4466-9fb7-06f34bbaa2d5" name="Changes" comment="ch 11: setup completelt failed - try again" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -209,7 +177,7 @@
       <workItem from="1693248472448" duration="1574000" />
       <workItem from="1695143957574" duration="43000" />
       <workItem from="1695144016743" duration="4594000" />
-      <workItem from="1695150293748" duration="339000" />
+      <workItem from="1695150293748" duration="454000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -243,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695149939245</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ch 11: setup completelt failed - try again">
+      <option name="closed" value="true" />
+      <created>1695150731431</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695150731431</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

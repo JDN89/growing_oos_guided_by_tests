@@ -24,7 +24,7 @@
 - By adhering to this law, objects become more loosely coupled, making them more easily interchangeable, and the overall design becomes more modular.
 
 ### example
-```master.allowSavingOfCustomisations();```
+
 - Solution: By wrapping all the implementation details behind a single call, the code becomes more concise, readable, and maintainable.
   - Encapsulation: The revised code hides the complex structure and relationships between the objects, encapsulating the behavior into a single method.
   - Loose Coupling: The caller no longer needs to know anything about the types in the chain, reducing dependencies and making the code more robust to changes.
